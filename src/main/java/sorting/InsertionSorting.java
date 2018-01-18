@@ -1,5 +1,9 @@
 package sorting;
 
+/**
+ * 经典的插入排序。
+ * 每一步都将一个待排数据按其大小插入到已经排序的数据中的适当位置，直到全部插入完毕。
+ */
 public class InsertionSorting {
     /**
      * 插入排序的实现例程，特点是使用了泛型，可以接受任何实现了Comparable接口的类，
@@ -27,7 +31,7 @@ public class InsertionSorting {
     }
 
     /**
-     * 要争插入排序正确性的程序
+     * 验证插入排序正确性的程序
      * @param args 无
      */
     public static void main(String[] args) {

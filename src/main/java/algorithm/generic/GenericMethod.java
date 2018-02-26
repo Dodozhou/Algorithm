@@ -1,4 +1,4 @@
-package generic;
+package algorithm.generic;
 
 public class GenericMethod {
     public static <T> boolean contains(T[] arr,T x){

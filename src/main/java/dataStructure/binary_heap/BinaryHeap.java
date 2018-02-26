@@ -1,4 +1,4 @@
-package binary_heap;
+package dataStructure.binary_heap;
 
 /**
  * 二叉堆。

@@ -1,4 +1,4 @@
-package collection;
+package dataStructure.collection;
 
 import sun.misc.ASCIICaseInsensitiveComparator;
 

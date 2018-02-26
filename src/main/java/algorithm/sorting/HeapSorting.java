@@ -1,8 +1,4 @@
-package sorting;
-
-import binary_heap.BinaryHeap;
-import com.sun.xml.internal.bind.AnyTypeAdapter;
-import org.omg.CORBA.Any;
+package algorithm.sorting;
 
 /**
  * 堆排序的实现。

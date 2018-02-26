@@ -1,4 +1,4 @@
-package binary_heap;
+package dataStructure.binary_heap;
 
 public class BHTest {
     public static void main(String[] args) {

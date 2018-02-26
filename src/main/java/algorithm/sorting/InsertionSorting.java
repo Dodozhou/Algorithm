@@ -1,4 +1,4 @@
-package sorting;
+package algorithm.sorting;
 
 /**
  * 经典的插入排序。

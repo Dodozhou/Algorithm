@@ -1,4 +1,4 @@
-package sorting;
+package algorithm.sorting;
 
 /**
  * 使用shell的增量序列的希尔排序实现

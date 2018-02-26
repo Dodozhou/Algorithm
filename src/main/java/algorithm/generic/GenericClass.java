@@ -1,4 +1,4 @@
-package generic;
+package algorithm.generic;
 
 public class GenericClass<T> {
     T t1;

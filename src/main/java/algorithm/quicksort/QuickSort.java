@@ -1,4 +1,4 @@
-package quicksort;
+package algorithm.quicksort;
 
 public class QuickSort {
     public static int partition(int []array,int lo,int hi){
@@ -16,11 +16,11 @@ public class QuickSort {
         int key=array[lo];
 
         while(lo<hi){
-            while(array[hi]>=key&&hi>lo){
+            while(array[hi]>=key && hi>lo){
                 hi--;
             }
             array[lo]=array[hi];
-            while(array[lo]<=key&&hi>lo){
+            while(array[lo]<=key && hi>lo){
                 lo++;
             }
             array[hi]=array[lo];

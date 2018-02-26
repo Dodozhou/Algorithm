@@ -1,6 +1,4 @@
-package binary_tree;
-
-import org.omg.CORBA.Any;
+package dataStructure.binary_tree;
 
 public class BinarySearchTree<AnyType extends Comparable<? super AnyType>> {
 

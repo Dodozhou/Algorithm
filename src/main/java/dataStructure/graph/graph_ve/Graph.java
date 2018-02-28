@@ -59,6 +59,11 @@ public class Graph {
             //将边加入到节点的链表中去
             edge.broEdge = preV.edgeLink;
             preV.edgeLink = edge;
+
+//            如果加上下面这段，则创建的是无向图，不加则是有向图
+//            edge.tailName = preName;
+//            edge.broEdge  = folV.edgeLink;
+//            folV.edgeLink = edge;
         }
     }
 

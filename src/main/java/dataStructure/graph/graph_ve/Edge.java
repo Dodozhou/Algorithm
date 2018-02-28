@@ -1,4 +1,4 @@
-package dataStructure.graph;
+package dataStructure.graph.graph_ve;
 
 import dataStructure.graph.graph_v.Vertex;
 
@@ -7,15 +7,15 @@ import dataStructure.graph.graph_v.Vertex;
  */
 public class Edge {
     /**
-     * 边的起点
+     * 边的尾部节点名称
      */
-    Vertex start;
+    String tailName;
     /**
      * 边的权值
      */
     int weight;
     /**
-     * 边的终点
+     * 头节点的其他边
      */
-    Vertex end;
+    Edge broEdge;
 }

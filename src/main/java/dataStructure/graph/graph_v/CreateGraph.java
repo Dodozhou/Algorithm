@@ -2,6 +2,9 @@ package dataStructure.graph.graph_v;
 
 import java.util.Scanner;
 
+/**
+ * 邻接表创建图的方式1，这种方式不能存储边的权值
+ */
 public class CreateGraph {
     /**
      * 根据顶点名字查找并返回特定的顶点
@@ -48,6 +51,7 @@ public class CreateGraph {
            //将边的另一节点插入到链中
            Vertex v2 = new Vertex();
            v2.name = folV;
+
            v2.nextNode = v1.nextNode;
            v1.nextNode = v2;
 
